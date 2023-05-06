@@ -1,0 +1,448 @@
+header{
+    background: linear-gradient(to right, rgb(255, 0, 0),   rgb(0, 0, 0));
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+
+    align-items: center;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    transition: background-color 0.5s ease-out;
+    padding-bottom: 10px;
+}
+
+#menu {
+    visibility: hidden;
+    opacity: 0;
+
+    background-color:transparent;
+    border: none;
+    cursor: pointer;
+
+}
+
+.menu .line {
+    background-color: #fff;
+    display: block;
+    height: 3px;
+    margin: 5px 0;
+    transition: background-color 0.5s ease-out;
+    width: 25px;
+
+}
+
+#sub-item {
+
+    display: none;
+    position:fixed;
+    width:180px;
+    height:200px;
+    background:linear-gradient( to bottom ,rgb(255, 0, 0), rgb(67, 0, 129));
+    margin-top: 50%;
+    text-align: left;
+
+
+}
+#sub-item ul{
+    list-style: none;
+    color:white;
+    text-align: left;
+    font-size: 20px;
+
+   
+}
+
+#sub-item ul li a{
+ 
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.5s ease-out;
+    right: 5%;
+    font-size: 30px;
+
+    text-align: left;
+}
+#sub-item ul li a:hover{
+    color: red;
+}
+#sub-item ul li{
+margin-top: 10px;
+}
+.pc-cont {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 30%;
+}
+
+.pc-cont li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.pc-cont li a {
+    color: white;
+   
+    text-decoration: none;
+    transition: color 0.5s ease-out;
+    transition: all 0.5 ease-out;
+    font-size:27px;
+    transition: color 0.5s ease-out;
+}
+.pc-cont li a:hover {
+    color: rgb(255, 0, 0);
+}
+html{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+.introduccion{
+    margin-top:100px;
+    text-align: center;
+}
+.introduccion h1{
+    font-size:30px;
+}
+.introduccion p{
+    font-size: 20px;
+}
+.servicios:-webkit-scrollbar{
+    opacity: 1;
+}
+.servicios{
+ 
+    color: #fff;
+    height: auto;
+    width: 566px;
+    border: 2px transparent;
+    border-radius: 10px;
+    padding: 20px;
+    background: linear-gradient(to right, red, blue);
+    
+  
+    
+}
+.introduccion center img{
+    border-radius:100px;
+}
+
+.servicios-3{
+
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+ justify-content: center;
+ width: 550px;
+ height:200px;
+ margin-top:20px;
+text-align: center;
+
+}
+h2, span{
+    color:white;
+}
+span{
+    font-size:20px;
+}
+.servicios-3 div{
+    
+}
+button{
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin:5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.918);
+}
+.netflix{
+    color: red;
+    border:3px transparent;
+    cursor:pointer;
+width:120px;
+height:80px;
+  transition: height 0.5s ease, width 0.5s ease;
+    background:url(netflix.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+}
+.netflix:hover{
+width:130px;
+height:90px;
+}
+
+.amazon{
+    color: white;
+   
+    cursor:pointer;
+    border:3px transparent;
+    width:120px;
+height:80px;
+  background-color: #fff;
+    background:url(iptv.png);
+    background-size: cover;
+    background-position: center;
+      transition: height 0.5s ease, width 0.5s ease;
+}
+.amazon:hover{
+    width:130px;
+height:90px;
+}
+.hbo{
+    color: white;
+
+    cursor:pointer;
+    border:3px transparent;
+    width:120px;
+height:80px;
+   
+    background:url(plex.png);
+    background-size: cover;
+    background-position: center;
+      transition: height 0.5s ease, width 0.5s ease;
+}
+.hbo:hover{
+        width:130px;
+height:90px;
+}
+.star{
+    color: orangered;
+
+    cursor:pointer;
+    border:3px transparent;
+    width:120px;
+height:80px;
+  
+    background:url(youtube.png);
+    background-size: cover;
+    background-position: center;
+         transition: height 0.5s ease, width 0.5s ease;
+}
+.star:Hover{
+         width:130px;
+height:90px;
+}
+.disney{
+    color: blue;
+    border:3px solid blue;
+    cursor:pointer;
+    background-color: white;
+    border:3px transparent;
+    width:120px;
+height:80px;
+
+    background:url(disney.png);
+    background-size: cover;
+    background-position: center;
+           transition: height 0.5s ease, width 0.5s ease;
+}
+.disney:hover{
+             width:130px;
+height:90px;
+}
+.croll{
+    color: blue;
+    border:3px solid blue;
+    cursor:pointer;
+    background-color: white;
+    border:3px transparent;
+    width:120px;
+height:80px;
+
+    background:url(hbo.png);
+    background-size: cover;
+    background-position: center;
+               transition: height 0.5s ease, width 0.5s ease;
+}
+.croll:hover{
+                 width:130px;
+height:90px;
+}
+.paramount{
+    color: blue;
+    border:3px solid blue;
+    cursor:pointer;
+    background-color: white;
+    border:3px transparent;
+    width:120px;
+height:80px;
+
+    background:url(star.png);
+    background-size: cover;
+    background-position: center;
+              transition: height 0.5s ease, width 0.5s ease;
+}
+.paramount:hover{
+    width:130px;
+    height:90px;
+}
+.spotify{
+    color: blue;
+    border:3px solid blue;
+    cursor:pointer;
+    background-color: white;
+    border:3px transparent;
+    width:120px;
+height:80px;
+    background-color: transparent;
+    background:url(amazon.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: height 0.5s ease, width 0.5s ease;
+}
+.spotify:hover{
+    width:130px;
+    height:90px;
+
+}
+.yt{
+    color: blue;
+    border:3px solid blue;
+    cursor:pointer;
+    background-color: white;
+    border:3px transparent;
+    width:120px;
+height:80px;
+    background-color: transparent;
+    background:url(1366_2000.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: height 0.5s ease, width 0.5s ease;
+}
+.yt:hover{
+    width:130px;
+    height:90px;
+}
+.canva{
+    color: blue;
+    border:3px solid blue;
+    cursor:pointer;
+    background-color: white;
+    border:3px transparent;
+    width:120px;
+height:80px;
+    background-color: transparent;
+    background:url(paramount.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: height 0.5s ease, width 0.5s ease;
+}
+.canva:hover{
+    width:130px;
+    height:90px;
+}
+.magistv{
+    color: blue;
+    border:3px solid blue;
+    cursor:pointer;
+    background-color: white;
+    border:3px transparent;
+    width:120px;
+height:80px;
+   
+    background:url(magistvlogo.png);
+    background-size: cover;
+    background-position: center;
+    transition: height 0.5s ease, width 0.5s ease;
+}
+.magistv:hover{
+    width:130px;
+    height:90px;
+}
+.crunchyroll{
+    color: blue;
+    border:3px solid blue;
+    cursor:pointer;
+    background-color: white;
+    border:3px transparent;
+    width:120px;
+height:80px;
+   
+    background:url(croll.png);
+    background-size: cover;
+    background-position: center;
+    transition: height 0.5s ease, width 0.5s ease;
+}
+.crunchyroll:hover{
+    width:130px;
+    height:90px;
+}
+.spot{
+    color: blue;
+    border:3px solid blue;
+    cursor:pointer;
+    background-color: white;
+    border:3px transparent;
+    width:120px;
+height:80px;
+   
+    background:url(spotify.png);
+    background-size: cover;
+    background-position: center;
+    transition: height 0.5s ease, width 0.5s ease;
+}
+.spot:hover{
+    width:130px;
+    height:90px;
+}
+.introduccion{background-color: #fff;
+padding: 20px;
+border-radius:10px;
+box-shadow: black;
+}
+.ws{
+    color: #fff;
+    background-color:blueviolet;
+    border: 2px transparent;
+    cursor: pointer;
+    padding:15px;
+  transition: padding 1s ease-in-out, background-color 1s ease-in-out;
+    
+
+}
+.ws:hover{
+    background-color: black;
+    padding:20px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+center .form{
+    padding:20px;
+    background:linear-gradient( to bottom ,rgb(7, 66, 121), rgb(100, 3, 138));
+    width:300px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: black;
+}
+center .form input, textarea{
+    background: none;
+    color:white;
+    border:3px transparent;
+}
+@media(max-width:768px){
+.pc-cont{
+    visibility: hidden;
+
+}
+#menu{
+visibility:visible;
+opacity: 1;}
+center .servicios {
+
+}
+
+span{
+    color:black;
+}
+.servicios-3{
+
+
+}
+
+}
